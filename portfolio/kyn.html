@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="/templatemo-glossy-touch.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="bg-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- SINGLE NAVIGATION HEADER -->
+    <header>
+        <div class="container">
+            <nav class="glass">
+                <div class="logo" onclick="showPage('home')">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Grid of circles with varying sizes -->
+                            <circle cx="16" cy="16" r="5" opacity="0.9" />
+                            <circle cx="32" cy="16" r="4" opacity="0.8" />
+                            <circle cx="16" cy="32" r="4" opacity="0.7" />
+                            <circle cx="32" cy="32" r="5" opacity="0.85" />
+                            <!-- Small accent dots -->
+                            <circle cx="24" cy="8" r="2" opacity="1" />
+                            <circle cx="8" cy="24" r="2" opacity="0.9" />
+                            <circle cx="40" cy="24" r="2" opacity="0.9" />
+                            <circle cx="24" cy="40" r="2" opacity="1" />
+                            <!-- Tiny corner dots -->
+                            <circle cx="8" cy="8" r="1" opacity="0.6" />
+                            <circle cx="40" cy="8" r="1" opacity="0.6" />
+                            <circle cx="8" cy="40" r="1" opacity="0.6" />
+                            <circle cx="40" cy="40" r="1" opacity="0.6" />
+                        </svg>
+                    </div>
+                    <span>Faura Alyriana Shakira</span>
+                </div>
+                <div class="nav-links">
+                    <a href="/index.html">Kembali</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME PAGE -->
+    <div class="container">
+        <div class="content-wrapper my-4">
+            <section class="hero glass">
+                <div class="hero-info">
+                    <h1>Project information</h1>
+                    <hr>
+                    <ul>
+                        <li>Categori: Website</li>
+                        <li>Tanggal Projek: 5 Juni, 2023</li>
+                        <li>Teknologi: Java Spring Boot, React.js & Bootstrap</li>
+                        <li>Alat: Spring Tool Suite, Postman & Visual Studio Code</li>
+                        <li>Berhasil menerapkan validasi form</li>
+                        <li>Berhasil membuat 6 halaman</li>
+                    </ul>
+                </div>
+                <div class="hero-content">
+                    <h1>Know Your Neighborhood</h1>
+                    <p>Know your neighborhood adalah situs web yang memungkinkan pengguna untuk masuk menggunakan API
+                        yang ada dan sistem akan mengambil informasi dasar seperti nama email dari API.</p>
+
+                    <p>alam membuat situs web "Know Your Neighborhood", saya memilih Visual Studio Code sebagai alat
+                        editor kode utama untuk mengembangkan seluruh proyek. Untuk mengembangkan backend, saya
+                        menggunakan Spring Tool Suite (STS) sebagai pilihan yang tepat. Kemudian, untuk mengakses API
+                        dan mengambil informasi dasar seperti nama dan email dari pengguna, saya menggunakan Postman.
+                        Dengan Postman, saya dapat membuat permintaan HTTP ke API yang ada dan melihat hasilnya,
+                        sehingga memastikan koneksi dan integrasi dengan API berfungsi dengan baik. Juga, dalam
+                        pengembangan front end, saya menggunakan React.js sebagai opsi untuk membuat antarmuka pengguna.
+                        Dengan menggunakan React.js, saya dapat membuat komponen UI yang dapat digunakan kembali,
+                        membuat pengembangan dan pemeliharaan frontend lebih mudah.</p>
+
+                    <p>Proyek "Know Your Neighborhood" adalah kolaborasi yang menggabungkan teknologi canggih untuk
+                        menghasilkan situs web yang fungsional dan ramah pengguna. Visual Studio Code, Spring Tool
+                        Suite, dan Postman berperan penting dalam pengembangan backend yang solid dan akses ke API yang
+                        andal, sementara React.js digunakan untuk membuat antarmuka pengguna yang menarik dan
+                        interaktif.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <div id="carouselExampleIndicators" class="carousel slide w-50 mx-auto">
+                    <div class="carousel-inner service-grid">
+                        <div class="carousel-item active">
+                            <div class="carousel-img-wrapper">
+                                <img src="/images/porto5/M8D1.png" class="" alt="">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-img-wrapper">
+                                <img src="/images/porto5/M8D2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-img-wrapper">
+                                <img src="/images/porto5/M8D3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-img-wrapper">
+                                <img src="/images/porto5/M8D4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-img-wrapper">
+                                <img src="/images/porto5/M8D5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-img-wrapper">
+                                <img src="/images/porto5/M8D6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+    <script src="/templatemo-glossy-touch.js"></script>
+</body>
+
+</html>
